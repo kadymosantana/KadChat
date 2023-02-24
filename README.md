@@ -1,4 +1,7 @@
-#  💬 KadChat
+<div align="center">
+  <img width="110" src="https://user-images.githubusercontent.com/98963793/221279639-926c306c-b544-486f-afaf-ba07e9b07cda.png"/>
+  <h1>KadChat</h1>
+</div>
 
 ![KadChat](https://user-images.githubusercontent.com/98963793/219823796-08ff94e1-12d1-4664-8758-cb86c98e2017.png)
 
