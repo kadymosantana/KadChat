@@ -11,7 +11,7 @@ const props = defineProps<{
 }>();
 
 const serializeTimestamp = (timestamp: Timestamp) => {
-  return timestamp.toDate().toLocaleString("pt-BR").slice(0, 16);
+  return timestamp.toDate().toLocaleString("pt-BR").slice(0, 17);
 };
 
 const lastMessage = ref<Element[] | null>(null);
