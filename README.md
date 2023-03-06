@@ -1,7 +1,7 @@
 <div align="center">
-  <img width="110" src="https://user-images.githubusercontent.com/98963793/221279639-926c306c-b544-486f-afaf-ba07e9b07cda.png"/>
-  <h1>KadChat</h1>
+  <img width="300" src="https://user-images.githubusercontent.com/98963793/223187232-2b09c391-be2f-4761-a796-4d49dcca15ce.png"/>
 </div>
+<div>‎</div>
 
 ![KadChat](https://user-images.githubusercontent.com/98963793/219823796-08ff94e1-12d1-4664-8758-cb86c98e2017.png)
 
