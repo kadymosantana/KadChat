@@ -30,9 +30,9 @@ const selectedUser = ref<UserRef | null>(null);
 // Lidando com o status de conexão do usuário
 onMounted(() => {
   updateDoc(currentUserRef, {
-      status: "online",
-    });
-})
+    status: "online",
+  });
+});
 
 addEventListener("beforeunload", () => {
   updateDoc(currentUserRef, {
@@ -198,15 +198,12 @@ provide("currentUserRef", currentUserRef);
     v-if="currentUser"
     class="w-screen h-screen bg-dark-800 flex flex-col items-center gap-9 justify-center p-3"
   >
-    <div class="flex gap-3 items-center">
-      <img
-        src="https://user-images.githubusercontent.com/98963793/215875591-c54e7943-7b8a-4999-a55d-c141bdf379b3.png"
-        alt="KadChat"
-        width="35"
-        height="auto"
-      />
-      <h1 class="text-white text-xl font-light text-green-400">KadChat</h1>
-    </div>
+    <img
+      src="https://user-images.githubusercontent.com/98963793/223187232-2b09c391-be2f-4761-a796-4d49dcca15ce.png"
+      alt="KadChat"
+      width="150"
+      height="auto"
+    />
 
     <div
       class="flex gap-3 text-white overflow-hidden w-full h-[450px] sm:justify-center"
