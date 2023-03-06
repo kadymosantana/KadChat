@@ -65,11 +65,13 @@ const addUserToDatabase = async (newUser: User) => {
       <div class="flex flex-col items-center gap-6">
         <img
           src="https://user-images.githubusercontent.com/98963793/215875591-c54e7943-7b8a-4999-a55d-c141bdf379b3.png"
-          width="75"
+          width="100"
           height="auto"
           alt="Ilustração"
         />
-        <h1 class="text-4xl text-white font-light">KadChat</h1>
+        <h1 class="text-4xl text-green-500 font-light tracking-tighter">
+          KadChat
+        </h1>
       </div>
 
       <div class="flex flex-col gap-3">
