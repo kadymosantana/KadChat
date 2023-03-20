@@ -3,7 +3,7 @@
 </div>
 <div>‎</div>
 
-![KadChat](https://user-images.githubusercontent.com/98963793/224888384-2eab132e-d10a-482f-8ef8-969ddbcfcbb2.png)
+![KadChat](https://user-images.githubusercontent.com/98963793/226403213-8d6186e1-bdb7-43f9-bbac-cd8c26f5b30b.png)
 
 ## 📖 Sobre o projeto
 KadChat é um aplicativo web de bate-papo em tempo real. Desenvolvi em TypeScript, Vue.js 3 com Composition API e Firebase com Firestore como banco de dados em tempo real. É o meu primeiro projeto utilizando o Firebase e pude aprendê-lo e praticá-lo bastante, entendendo as diferenças entre os métodos de manipulação, as tipagens dos dados retornados nas consultas, as regras de acesso aos dados, etc.
@@ -11,7 +11,7 @@ KadChat é um aplicativo web de bate-papo em tempo real. Desenvolvi em TypeScrip
 ## 🛠️ Ferramentas utilizadas
 Utilizei as seguintes ferramentas ao longo do desenvolvimento:
 
-- HTML e CSS;
+- HTML 5 e CSS 3;
 - Tailwind CSS;
 - TypeScript;
 - Vue.js 3;
