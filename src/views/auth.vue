@@ -8,7 +8,7 @@ import {
   User,
 } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
-import { collections } from "../firebase/index";
+import { collections } from "../lib/firebase";
 import { useCollection, useFirebaseAuth } from "vuefire";
 
 const router = useRouter();

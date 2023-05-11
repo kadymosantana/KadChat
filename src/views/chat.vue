@@ -6,7 +6,7 @@ import {
   Timestamp,
   updateDoc,
 } from "@firebase/firestore";
-import { collections } from "../firebase/index";
+import { collections } from "../lib/firebase";
 import { ref, computed, onMounted, provide } from "vue";
 import { useCollection, useDocument } from "vuefire";
 import { currentUser } from "../main";

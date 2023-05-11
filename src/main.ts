@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import './index.css';
 import App from './App.vue';
 import { VueFire, VueFireAuth, getCurrentUser, useCurrentUser } from 'vuefire';
-import { firebaseApp } from './firebase/index.js';
+import { firebaseApp } from './lib/firebase';
 import { createRouter, createWebHistory } from 'vue-router';
 
 import Auth from './views/auth.vue';
