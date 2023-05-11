@@ -9,13 +9,13 @@ import { ConversationRef, UserRef } from "../types";
 import { currentUser } from "../main";
 
 export const firebaseApp = initializeApp({
-  apiKey: "AIzaSyBbq3st8FTsi4RTr7kyb_BnflN1K9CQOKg",
-  authDomain: "chat-app-3ec25.firebaseapp.com",
-  projectId: "chat-app-3ec25",
-  storageBucket: "chat-app-3ec25.appspot.com",
-  messagingSenderId: "117312411887",
-  appId: "1:117312411887:web:30f9b67eb54112a063a31a",
-  measurementId: "G-8MJ0FMJ4M5",
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID 
 });
 
 const db = getFirestore(firebaseApp);
