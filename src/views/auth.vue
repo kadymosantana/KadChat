@@ -56,10 +56,10 @@ const addUserToDatabase = async (newUser: User) => {
   >
     <img
       class="justify-self-end"
-      width="500"
+      width="600"
       height="auto"
       src="../assets/svg/draw.svg"
-      alt="Logo"
+      alt="Ilustração"
     />
     <div class="flex flex-col items-center gap-10">
       <div class="flex flex-col items-center gap-6">
@@ -67,7 +67,7 @@ const addUserToDatabase = async (newUser: User) => {
           src="https://user-images.githubusercontent.com/98963793/215875591-c54e7943-7b8a-4999-a55d-c141bdf379b3.png"
           width="100"
           height="auto"
-          alt="Ilustração"
+          alt="KadChat Logo"
         />
         <h1 class="text-4xl text-green-500 font-light tracking-tighter">
           KadChat
